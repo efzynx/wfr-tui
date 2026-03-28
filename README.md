@@ -1,5 +1,9 @@
 # wfr-tui
 
+<div align="center">
+   <img alt="Preview" src="https://github.com/user-attachments/assets/b67d317c-416e-4754-9202-69b08920b49d" />
+</div>
+
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/efzynx/wfr-tui)
 
 **wfr-tui** is a modern terminal-based user interface (TUI) for the renowned `wf-recorder` screen recording tool on Linux Wayland compositors (like Sway and Hyprland). Designed primarily for YouTube creators and video editors, it automates encoder detection (VAAPI), PulseAudio/PipeWire routing, and post-recording fixes with `ffmpeg`.
