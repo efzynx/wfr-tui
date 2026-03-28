@@ -29,16 +29,17 @@ Before running `wfr-tui`, make sure you have the following packages installed on
    git clone https://github.com/efzynx/wfr-tui.git
    cd wfr-tui
    ```
-2. Create and activate a virtual environment, then install dependencies:
+2. Run the installation script:
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install textual rich
+   ./install.sh
    ```
-3. Run the application directly:
+   *(This will automatically set up the virtual environment, install dependencies, and create a `wfr-tui` command in your `~/.local/bin` directory).*
+
+3. Run the application directly from anywhere:
    ```bash
-   python app.py
+   wfr-tui
    ```
+   *(Note: Make sure `~/.local/bin` is in your system's PATH)*
 
 ## Usage
 
