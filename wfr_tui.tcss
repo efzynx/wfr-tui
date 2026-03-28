@@ -1,0 +1,99 @@
+Screen {
+    background: $surface-darken-1;
+}
+
+#main-container {
+    layout: grid;
+    grid-size: 2 1;
+    grid-columns: 1fr 2fr;
+    grid-rows: 1fr;
+    padding: 1 2;
+    grid-gutter: 1 2;
+}
+
+.panel {
+    border: panel $primary-background;
+    background: $surface;
+    border-title-color: $accent-lighten-2;
+    border-title-style: bold;
+    padding: 0 1;
+}
+
+.panel:focus-within {
+    border: panel $accent;
+    border-title-color: $accent;
+}
+
+#presets-panel {
+    column-span: 1;
+    height: 100%;
+}
+
+#right-panels {
+    column-span: 1;
+    height: 100%;
+    layout: vertical;
+}
+
+.accordion-item {
+    margin-bottom: 0;
+}
+
+.accordion-item.-expanded {
+    height: 1fr;
+}
+
+.accordion-item.-expanded > Contents {
+    height: 1fr;
+}
+
+#status-panel {
+    height: 1fr;
+}
+
+RichLog {
+    height: 1fr;
+    min-height: 5;
+    border: panel $accent;
+    background: $surface;
+}
+
+#audio-buttons {
+    height: auto;
+    margin-top: 1;
+}
+
+#audio-buttons Button {
+    margin-right: 1;
+}
+
+#preset-desc {
+    margin-top: 1;
+    color: $text-muted;
+    border-top: solid $primary-muted;
+    padding-top: 1;
+}
+
+Label {
+    padding-top: 1;
+    padding-bottom: 1;
+}
+
+Select, Input {
+    margin-bottom: 1;
+}
+
+.device-row {
+    height: auto;
+    margin-bottom: 1;
+}
+
+#desktop-monitor-select, #mic-source-select {
+    width: 1fr;
+    margin-right: 1;
+    margin-bottom: 0;
+}
+
+#toggle-mute-desk, #toggle-mute-mic {
+    min-width: 15;
+}

@@ -1,0 +1,23 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+
+# Project Specific
+config.json
+*.mp4
+*.wav
+temp_*
+
+# Markdown implementation plan
+wfr-tui.md
